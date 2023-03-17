@@ -3,8 +3,8 @@ import java.nio.file.*;
 import java.util.*;
 
 public class WordCounter {
-    public static final Path FOLDER_OF_TEXT_FILES  = Paths.get("C:\\Users\\jake\\Desktop\\216HW5\\src\\texts");
-    public static final Path WORD_COUNT_TABLE_FILE = Paths.get("C:\\Users\\jake\\Desktop\\216HW5\\src\\texts\\hw5output.tx");
+    public static final Path FOLDER_OF_TEXT_FILES  = Paths.get("");
+    public static final Path WORD_COUNT_TABLE_FILE = Paths.get("");
     public static final int  NUMBER_OF_THREADS     = 2;
     //Note: there's this one random nullpointerexception i believe i fixed, but im not too sure. Essentially, every 40
     //runs, it would throw nullpointer for trying to access an element in the hashmap, that exists. Ran it 100 times
